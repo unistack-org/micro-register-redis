@@ -6,7 +6,7 @@ require (
 	github.com/alicebob/miniredis/v2 v2.34.0
 	github.com/docker/docker v27.4.1+incompatible
 	github.com/redis/go-redis/extra/rediscmd/v9 v9.7.0
-	github.com/redis/go-redis/v9 v9.7.0
+	github.com/redis/go-redis/v9 v9.7.3
 	go.unistack.org/micro/v3 v3.11.35
 )
 
