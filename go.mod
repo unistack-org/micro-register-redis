@@ -4,7 +4,7 @@ go 1.23.4
 
 require (
 	github.com/alicebob/miniredis/v2 v2.34.0
-	github.com/docker/docker v27.4.1+incompatible
+	github.com/docker/docker v28.0.0+incompatible
 	github.com/redis/go-redis/extra/rediscmd/v9 v9.7.0
 	github.com/redis/go-redis/v9 v9.7.0
 	go.unistack.org/micro/v3 v3.11.35
@@ -22,11 +22,12 @@ require (
 	github.com/docker/go-connections v0.5.0 // indirect
 	github.com/docker/go-metrics v0.0.1 // indirect
 	github.com/docker/libtrust v0.0.0-20160708172513-aabc10ec26b7 // indirect
+	github.com/felixge/httpsnoop v1.0.4 // indirect
+	github.com/go-logr/logr v1.4.3 // indirect
+	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
-	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/mux v1.8.1 // indirect
-	github.com/kr/pretty v0.3.1 // indirect
 	github.com/matoous/go-nanoid v1.5.1 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
@@ -38,8 +39,13 @@ require (
 	github.com/prometheus/procfs v0.0.3 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/yuin/gopher-lua v1.1.1 // indirect
+	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
+	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.62.0 // indirect
+	go.opentelemetry.io/otel v1.37.0 // indirect
+	go.opentelemetry.io/otel/metric v1.37.0 // indirect
+	go.opentelemetry.io/otel/trace v1.37.0 // indirect
 	go.unistack.org/micro-proto/v3 v3.4.1 // indirect
-	golang.org/x/sys v0.28.0 // indirect
+	golang.org/x/sys v0.33.0 // indirect
 	google.golang.org/protobuf v1.36.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gotest.tools/v3 v3.5.1 // indirect
