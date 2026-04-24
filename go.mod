@@ -1,6 +1,6 @@
 module go.unistack.org/micro-register-redis/v3
 
-go 1.23.4
+go 1.24.0
 
 require (
 	github.com/alicebob/miniredis/v2 v2.34.0
@@ -39,11 +39,11 @@ require (
 	github.com/prometheus/procfs v0.0.3 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/yuin/gopher-lua v1.1.1 // indirect
-	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
+	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.62.0 // indirect
-	go.opentelemetry.io/otel v1.37.0 // indirect
-	go.opentelemetry.io/otel/metric v1.37.0 // indirect
-	go.opentelemetry.io/otel/trace v1.37.0 // indirect
+	go.opentelemetry.io/otel v1.41.0 // indirect
+	go.opentelemetry.io/otel/metric v1.41.0 // indirect
+	go.opentelemetry.io/otel/trace v1.41.0 // indirect
 	go.unistack.org/micro-proto/v3 v3.4.1 // indirect
 	golang.org/x/sys v0.33.0 // indirect
 	google.golang.org/protobuf v1.36.1 // indirect
