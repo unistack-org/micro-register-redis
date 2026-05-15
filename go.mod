@@ -1,4 +1,4 @@
-module go.unistack.org/micro-register-redis/v3
+module go.unistack.org/micro-register-redis/v5
 
 go 1.23.4
 
