@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/alicebob/miniredis/v2"
-	"go.unistack.org/micro/v3/register"
+	"go.unistack.org/micro/v5/register"
 )
 
 func TestRegister(t *testing.T) {
