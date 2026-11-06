@@ -4,7 +4,7 @@ import (
 	"time"
 
 	goredis "github.com/redis/go-redis/v9"
-	"go.unistack.org/micro/v3/register"
+	"go.unistack.org/micro/v5/register"
 )
 
 var (

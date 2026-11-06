@@ -6,12 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/registry"
 	goredis "github.com/redis/go-redis/v9"
-	"go.unistack.org/micro/v3/codec"
-	"go.unistack.org/micro/v3/register"
-	"go.unistack.org/micro/v3/util/id"
-	pool "go.unistack.org/micro/v3/util/xpool"
+	"go.unistack.org/micro/v5/codec"
+	"go.unistack.org/micro/v5/register"
+	"go.unistack.org/micro/v5/util/id"
+	pool "go.unistack.org/micro/v5/util/xpool"
 )
 
 const (
@@ -27,7 +26,6 @@ type Redis struct {
 	cli      goredis.UniversalClient
 	opts     register.Options
 	watchers map[string]*Watcher
-	services map[string][]*registry.Service
 	db       int
 	pool     *pool.StringsPool
 	sync.RWMutex
@@ -38,7 +36,6 @@ func NewRegister(opts ...register.Option) *Redis {
 	r := &Redis{
 		opts:     register.NewOptions(opts...),
 		watchers: make(map[string]*Watcher),
-		services: make(map[string][]*registry.Service),
 	}
 
 	return r
