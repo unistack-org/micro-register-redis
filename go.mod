@@ -5,7 +5,7 @@ go 1.26
 require (
 	github.com/alicebob/miniredis/v2 v2.34.0
 	github.com/redis/go-redis/extra/rediscmd/v9 v9.7.0
-	github.com/redis/go-redis/v9 v9.7.0
+	github.com/redis/go-redis/v9 v9.7.3
 )
 
 require go.unistack.org/micro-proto/v5 v5.0.0 // indirect
