@@ -5,13 +5,13 @@ go 1.26.0
 require (
 	github.com/alicebob/miniredis/v2 v2.40.0
 	github.com/redis/go-redis/extra/rediscmd/v9 v9.23.0
-	github.com/redis/go-redis/v9 v9.23.0
+	github.com/redis/go-redis/v9 v9.24.0
 )
 
 require (
 	go.uber.org/atomic v1.12.0 // indirect
 	go.unistack.org/micro-proto/v5 v5.0.0 // indirect
-	golang.org/x/sys v0.48.0 // indirect
+	golang.org/x/sys v0.50.0 // indirect
 )
 
 require (
